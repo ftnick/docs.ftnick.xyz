@@ -17,7 +17,7 @@ body {
 
 /* Section styling */
 .agent-list {
-    max-width: 600px;
+    max-width: 90%;
     margin: 0 auto;
     padding: 20px;
     border: 2px solid #444;
