@@ -1,1 +1,97 @@
-{"record_id":{"name":"Record Identifier","type":"UUID","value":"BE73467F1E3458FC488D4CC21F4C5","metadata":{"classification":"declassified","access_level":"public","encryption":{"method":"AES-256","key_id":"key-7642","status":"decrypted"},"timestamps":{"created":"2023-04-17T13:45:00Z","last_modified":"2024-11-11T09:30:00Z"}}},"date":{"name":"Timestamp","type":"UNIX Epoch","value":1731264766,"metadata":{"classification":"restricted","access_level":"staff-only","timezone":"UTC","format":"epoch","encryption":{"method":"RSA-2048","key_id":"key-9813","status":"decrypted"},"timestamps":{"created":"2023-04-17T13:50:00Z","last_verified":"2024-11-11T09:30:00Z"}}},"data":{"name":"Data Block","type":"Text","value":"NDPFD","metadata":{"classification":"confidential","access_level":"restricted","checksum":"8a5b3c6d4f1e2a","integrity_verification":"passed","encryption":{"method":"AES-256","key_id":"key-1234","status":"decrypted"},"timestamps":{"created":"2023-04-17T13:52:00Z","last_modified":"2024-11-11T09:32:00Z"}}},"zip":{"name":"Zero Identifier Pass","type":"String","value":"NotValid/Expired","metadata":{"classification":"declassified","access_level":"public","validation_status":"not applicable","encryption":{"method":"none","key_id":null,"status":"unencrypted"},"timestamps":{"created":"2023-04-17T13:54:00Z","last_verified":"2024-11-11T09:33:00Z"}}},"author":{"name":"Author","type":"Username","value":"slowslow","metadata":{"classification":"internal","access_level":"admin-only","hashing":{"method":"SHA-256","value":"a4c5b6d8e0f7...","salt":"randomSaltValue"},"timestamps":{"created":"2023-04-17T13:56:00Z","last_modified":"2024-11-11T09:34:00Z"}}}}
+{
+	"record_id": {
+		"name": "Record Identifier",
+		"type": "UUID",
+		"value": "BE73467F1E3458FC488D4CC21F4C5",
+		"metadata": {
+			"classification": "declassified",
+			"access_level": "public",
+			"encryption": {
+				"method": "AES-256",
+				"key_id": "key-7642",
+				"status": "decrypted"
+			},
+			"timestamps": {
+				"created": "2023-04-17T13:45:00Z",
+				"last_modified": "2024-11-11T09:30:00Z"
+			}
+		}
+	},
+	"date": {
+		"name": "Timestamp",
+		"type": "UNIX Epoch",
+		"value": 1731264766,
+		"metadata": {
+			"classification": "restricted",
+			"access_level": "staff-only",
+			"timezone": "UTC",
+			"format": "epoch",
+			"encryption": {
+				"method": "RSA-2048",
+				"key_id": "key-9813",
+				"status": "decrypted"
+			},
+			"timestamps": {
+				"created": "2023-04-17T13:50:00Z",
+				"last_verified": "2024-11-11T09:30:00Z"
+			}
+		}
+	},
+	"data": {
+		"name": "Data Block",
+		"type": "Text",
+		"value": "NDPFD",
+		"metadata": {
+			"classification": "confidential",
+			"access_level": "restricted",
+			"checksum": "8a5b3c6d4f1e2a",
+			"integrity_verification": "passed",
+			"encryption": {
+				"method": "AES-256",
+				"key_id": "key-1234",
+				"status": "decrypted"
+			},
+			"timestamps": {
+				"created": "2023-04-17T13:52:00Z",
+				"last_modified": "2024-11-11T09:32:00Z"
+			}
+		}
+	},
+	"zip": {
+		"name": "Zero Identifier Pass",
+		"type": "String",
+		"value": "NotValid/Expired",
+		"metadata": {
+			"classification": "declassified",
+			"access_level": "public",
+			"validation_status": "not applicable",
+			"encryption": {
+				"method": "none",
+				"key_id": null,
+				"status": "unencrypted"
+			},
+			"timestamps": {
+				"created": "2023-04-17T13:54:00Z",
+				"last_verified": "2024-11-11T09:33:00Z"
+			}
+		}
+	},
+	"author": {
+		"name": "Author",
+		"type": "Username",
+		"value": "slowslow",
+		"metadata": {
+			"classification": "internal",
+			"access_level": "admin-only",
+			"hashing": {
+				"method": "SHA-256",
+				"value": "a4c5b6d8e0f7...",
+				"salt": "randomSaltValue"
+			},
+			"timestamps": {
+				"created": "2023-04-17T13:56:00Z",
+				"last_modified": "2024-11-11T09:34:00Z"
+			}
+		}
+	}
+}
