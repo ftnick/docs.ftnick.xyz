@@ -28,9 +28,9 @@ body {
 h1 {
     font-size: 2rem;
     color: #ffffff;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.7rem;
     border-bottom: 2px solid #444;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.7rem;
 }
 
 /* Document list */
@@ -42,8 +42,8 @@ ul {
 
 /* List items styling */
 li {
-    margin: 0.5rem 0;
-    padding: 0.5rem;
+    margin: 0.7rem 0;
+    padding: 0.7rem;
     border: 1px solid #333;
     background-color: #1a1a1a;
 }
